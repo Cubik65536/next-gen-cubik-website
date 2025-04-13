@@ -4,6 +4,8 @@ export const themeConfig = {
   siteMeta: {
     // 站点标题
     title: "Cubik的小站",
+    // 站点主页欢迎
+    welcomeMessage: "你好，欢迎来到 Cubik 的小站",
     // 站点描述
     description: "Recommended by Dr. Creative",
     // 站点logo

@@ -17,20 +17,21 @@
         <span class="title">字体</span>
         <div class="set-item">
           <span class="set-label">全站字体</span>
-          <div class="set-options">
-            <span
-              :class="['options', { choose: fontFamily === 'hmos' }]"
-              @click="fontFamily = 'hmos'"
-            >
-              HarmonyOS Sans
-            </span>
-            <span
-              :class="['options', { choose: fontFamily === 'lxgw' }]"
-              @click="fontFamily = 'lxgw'"
-            >
-              霞鹜文楷
-            </span>
-          </div>
+          <!-- TODO: 切换字体系统 -->
+<!--          <div class="set-options">-->
+<!--            <span-->
+<!--              :class="['options', { choose: fontFamily === 'hmos' }]"-->
+<!--              @click="fontFamily = 'hmos'"-->
+<!--            >-->
+<!--              HarmonyOS Sans-->
+<!--            </span>-->
+<!--            <span-->
+<!--              :class="['options', { choose: fontFamily === 'lxgw' }]"-->
+<!--              @click="fontFamily = 'lxgw'"-->
+<!--            >-->
+<!--              霞鹜文楷-->
+<!--            </span>-->
+<!--          </div>-->
         </div>
         <div class="set-item">
           <span class="set-label">全站字体大小</span>

@@ -111,8 +111,9 @@ const changeSiteThemeType = () => {
 const changeSiteFont = () => {
   try {
     const htmlElement = document.documentElement;
-    htmlElement.classList.remove("lxgw", "hmos");
-    htmlElement.classList.add(fontFamily.value);
+    // TODO: 切换字体系统
+    // htmlElement.classList.remove("lxgw", "hmos");
+    // htmlElement.classList.add(fontFamily.value);
     htmlElement.style.fontSize = fontSize.value + "px";
   } catch (error) {
     console.error("切换系统字体样式失败", error);
@@ -125,7 +126,8 @@ watch(
   () => changeSiteThemeType(),
 );
 watch(
-  () => fontFamily.value,
+  // TODO: 切换字体系统
+  // () => fontFamily.value,
   () => changeSiteFont(),
 );
 

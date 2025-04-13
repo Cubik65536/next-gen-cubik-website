@@ -31,8 +31,7 @@
   --main-color-white: #ffffff40;
   --main-color-gray: #999;
   --main-color-red: #ff3842;
-  --main-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
-    Cantarell, "Helvetica Neue", sans-serif;
+  --main-font-family: "IBM Plex Serif", "IBM Plex Math", "LXGW WenKai Lite", serif;
 }
 
 html.dark {
@@ -54,12 +53,13 @@ html.dark {
 
 // 字体
 html {
-  &.hmos {
-    --main-font-family: "HarmonyOS_Regular", sans-serif;
-  }
-  &.lxgw {
-    --main-font-family: "LXGW WenKai Screen", sans-serif;
-  }
+  // TODO: 切换字体系统
+  //&.hmos {
+  //  --main-font-family: "HarmonyOS_Regular", sans-serif;
+  //}
+  //&.lxgw {
+  //  --main-font-family: "LXGW WenKai Screen", sans-serif;
+  //}
   .iconfont {
     font-size: 1rem;
   }
@@ -116,6 +116,7 @@ html {
     // 代码高亮
     pre {
       code {
+        font-family: "Monaspace Krypton", monospace;
         .line {
           span {
             color: var(--shiki-dark) !important;

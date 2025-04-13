@@ -42,7 +42,8 @@ export const mainStore = defineStore("main", {
       // 背景模糊
       backgroundBlur: false,
       // 全站字体
-      fontFamily: "hmos",
+      // TODO: 切换字体系统
+      // fontFamily: "hmos",
       // 全站字体大小
       fontSize: 16,
       // 信息显示位置
