@@ -11,12 +11,12 @@
       <!-- 追求 -->
       <div class="about-item pursuit">
         <span class="tip">追求</span>
-        <span class="title2">源于</span>
-        <span class="title2">热爱而去开发</span>
-        <span class="title2">优秀的作品</span>
+        <span class="title2">将</span>
+        <span class="title2">新颖且有趣的想法</span>
+        <span class="title2">变成现实</span>
       </div>
     </div>
-    <div class="about-content" style="grid-template-columns: 2fr 3fr">
+    <div class="about-content" style="grid-template-columns: 3fr 3fr">
       <!-- 性格 -->
       <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
@@ -36,11 +36,28 @@
           class="male"
         />
       </div>
-      <!-- 座右铭 -->
-      <div class="about-item">
-        <span class="tip">座右铭</span>
-        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
-        <span class="title2">一丝不苟。</span>
+      <!-- 信息 -->
+      <div class="about-item child">
+        <div
+          class="about-item map image"
+          style="background-image: url(/images/Mtl_from_mont_royal.jpg)"
+        >
+          <span class="position">我现在住在 <strong>Montreal, Quebec, Canada</strong></span>
+        </div>
+        <div class="about-item info">
+          <div class="info-item">
+            <span class="info-name">生于</span>
+            <span class="info-num" style="--color: #43a6c6">2005</span>
+          </div>
+          <div class="info-item">
+            <span class="info-name">现在职业</span>
+            <span class="info-num" style="--color: #dfac46; font-size: 18px">
+              Computer Science & Mathematics @Vanier College
+              <br/>
+              Software Developer @iXOR Technologies
+            </span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 3fr 2fr">
@@ -134,24 +151,11 @@
           </div>
         </div>
       </div>
-      <!-- 信息 -->
-      <div class="about-item child">
-        <div
-          class="about-item map image"
-          style="background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661cbccc56af5.webp)"
-        >
-          <span class="position">我现在住在 <strong>中国，河南省</strong></span>
-        </div>
-        <div class="about-item info">
-          <div class="info-item">
-            <span class="info-name">生于</span>
-            <span class="info-num" style="--color: #43a6c6">2001</span>
-          </div>
-          <div class="info-item">
-            <span class="info-name">现在职业</span>
-            <span class="info-num" style="--color: #dfac46">前端开发工程师</span>
-          </div>
-        </div>
+      <!-- 座右铭 -->
+      <div class="about-item">
+        <span class="tip">座右铭</span>
+        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
+        <span class="title2">一丝不苟。</span>
       </div>
     </div>
     <!-- 心路历程 -->
@@ -168,6 +172,17 @@
         <p class="text">
           这些就是创造这个小站的本意，<strong>也是我分享生活的方式</strong>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。
         </p>
+      </div>
+    </div>
+    <div class="about-content" style="display: flex">
+      <div class="about-item">
+        <span class="tip">版权信息</span>
+        <!-- unordered list -->
+        <ul>
+          <li>
+            <u>Mtl from mont royal.jpg</u> - <a href="https://commons.wikimedia.org/wiki/File:Mtl_from_mont_royal.jpg">Vreee</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -335,7 +350,7 @@ onMounted(() => {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-repeat: no-repeat;
-            background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+            background-image: linear-gradient(45deg, #FE5000 50%, #FE5000);
           }
         }
       }
@@ -526,6 +541,8 @@ onMounted(() => {
         background-size: 100%;
         transition: background 1.5s ease-in-out;
         cursor: pointer;
+        background-position-x: 25%;
+        background-position-y: 75%;
         @media (max-width: 768px) {
           background-size: cover;
           pointer-events: none;
@@ -544,8 +561,8 @@ onMounted(() => {
         }
         &:hover {
           background-size: 120%;
-          background-position-x: 0;
-          background-position-y: 36%;
+          background-position-x: 25%;
+          background-position-y: 56%;
           .position {
             bottom: -80px;
           }
