@@ -60,7 +60,7 @@
         </div>
       </div>
     </div>
-    <div class="about-content" style="grid-template-columns: 3fr 2fr">
+    <div class="about-content" style="grid-template-columns: 2fr 3fr">
       <!-- 技能 -->
       <div class="about-item skills">
         <span class="tip">技能</span>
@@ -88,9 +88,13 @@
           <i>無限進步</i>
         </span>
         <div class="list">
-          <span class="list-item" style="--color: #357ef5">ZZRVTC · 计算机应用技术</span>
-          <span class="list-item" style="--color: #eb372a">FE · 前端开发工程师</span>
-          <br/>
+          <span class="list-item" style="--color: #fed34c"><i>(Incoming)&nbsp;</i>University of Waterloo · Bachelor of Software Engineering (BSE)</span>
+          <span class="list-item" style="--color: #cc3433">Vanier College · DCS, Computer Science & Mathematics</span>
+          <hr/>
+          <span class="list-item" style="--color: #ea7922">Tail'ed · Software Developer Intern</span>
+          <span class="list-item" style="--color: #cc3433">Vanier FLOSS Club · Executive & Project Lead</span>
+          <span class="list-item" style="--color: #cc3433">Vanier Robotics Team · Co-Captain, Programming Competition Subteam</span>
+          <span class="list-item" style="--color: #cc3433">Vanier College · Teaching Assistant, Computer Science Department</span>
         </div>
       </div>
     </div>
@@ -175,14 +179,14 @@
       </div>
     </div>
     <div class="about-content" style="display: flex">
-      <div class="about-item">
+      <div class="about-item copyright-list">
         <span class="tip">版权信息</span>
-        <!-- unordered list -->
-        <ul>
-          <li>
-            <u>Mtl from mont royal.jpg</u> - <a href="https://commons.wikimedia.org/wiki/File:Mtl_from_mont_royal.jpg">Vreee</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
-          </li>
-        </ul>
+        <div class="list">
+          <span class="list-item">
+            <span style="font-family: monospace">Mtl from mont royal.jpg</span>&nbsp;·&nbsp;<a href="https://commons.wikimedia.org/wiki/File:Mtl_from_mont_royal.jpg">Vreee</a>, licensed under&nbsp;
+            <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,&nbsp;via Wikimedia Commons
+          </span>
+        </div>
       </div>
     </div>
   </div>
@@ -460,6 +464,29 @@ onMounted(() => {
           width: 100%;
           @media (max-width: 768px) {
             position: static;
+          }
+        }
+      }
+      &.copyright-list {
+        .list {
+          margin-top: 12px;
+          display: flex;
+          flex-direction: column;
+          .list-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 12px;
+            color: var(--main-font-second-color);
+            &::before {
+              content: ">_";
+              display: block;
+              width: 16px;
+              height: 16px;
+              background-color: var(--color);
+              border-radius: 50%;
+              margin-right: 8px;
+            }
           }
         }
       }
