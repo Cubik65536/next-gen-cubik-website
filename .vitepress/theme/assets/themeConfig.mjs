@@ -224,11 +224,11 @@ export const themeConfig = {
       // 封面布局方式: left | right | both
       coverLayout: 'both',
       // 默认封面(随机展示)
-      defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
-      ]
+      // defaultCover: [
+      //   'https://example.com/1.avif',
+      //   'https://example.com/2.avif',
+      //   'https://example.com/3.avif'
+      // ]
     }
   },
   // 页脚信息
