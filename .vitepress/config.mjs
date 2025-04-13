@@ -49,7 +49,8 @@ export default withPwa(
     },
     // markdown
     markdown: {
-      math: true,
+      // 使用了另一个 markdown-it 插件来显示数学公式，所以该选项被设置为 false
+      math: false,
       lineNumbers: true,
       toc: { level: [1, 2, 3] },
       image: {
