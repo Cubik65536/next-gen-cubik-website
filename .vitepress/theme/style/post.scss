@@ -695,4 +695,12 @@
       background-color: var(--main-card-border);
     }
   }
+
+  // 文章脚注
+  .footnotes {
+    font-size: 0.95rem !important;
+    p {
+      font-size: 0.95rem !important;
+    }
+  }
 }

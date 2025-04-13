@@ -1,12 +1,26 @@
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 import markdownItAttrs from "markdown-it-attrs";
 import container from "markdown-it-container";
+import abbr_plugin from "markdown-it-abbr";
+import deflist_plugin from "markdown-it-deflist";
+import ins_plugin from "markdown-it-ins";
+import footnote_plugin from "markdown-it-footnote";
+import mark_plugin from "markdown-it-mark";
+import sub_plugin from "markdown-it-sub";
+import sup_plugin from "markdown-it-sup";
 
 // markdown-it
 const markdownConfig = (md, themeConfig) => {
   // 插件
   md.use(markdownItAttrs);
   md.use(tabsMarkdownPlugin);
+  md.use(abbr_plugin)
+  md.use(deflist_plugin);
+  md.use(ins_plugin)
+  md.use(footnote_plugin);
+  md.use(mark_plugin);
+  md.use(sub_plugin);
+  md.use(sup_plugin);
   // timeline
   md.use(container, "timeline", {
     validate: (params) => params.trim().match(/^timeline\s+(.*)$/),
