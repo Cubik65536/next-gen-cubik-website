@@ -5,8 +5,8 @@
       <!-- 介绍 -->
       <div class="about-item hello">
         <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
-        <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
+        <span class="text2 title2">我是 CUBIK</span>
+        <span class="text3">是一名 学生、独立开发者、科技发烧友</span>
       </div>
       <!-- 追求 -->
       <div class="about-item pursuit">
@@ -17,6 +17,33 @@
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 2fr 3fr">
+      <!-- 性格 -->
+      <div class="about-item character" style="--color: #4298b4">
+        <span class="tip">性格</span>
+        <span class="title2">物流师</span>
+        <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
+        <span class="more">
+          在
+          <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
+          了解更多关于
+          <a href="https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC" target="_blank">
+            物流师
+          </a>
+        </span>
+        <img
+          src="/images/istj.svg"
+          alt="male"
+          class="male"
+        />
+      </div>
+      <!-- 座右铭 -->
+      <div class="about-item">
+        <span class="tip">座右铭</span>
+        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
+        <span class="title2">一丝不苟。</span>
+      </div>
+    </div>
+    <div class="about-content" style="grid-template-columns: 3fr 2fr">
       <!-- 技能 -->
       <div class="about-item skills">
         <span class="tip">技能</span>
@@ -46,39 +73,8 @@
         <div class="list">
           <span class="list-item" style="--color: #357ef5">ZZRVTC · 计算机应用技术</span>
           <span class="list-item" style="--color: #eb372a">FE · 前端开发工程师</span>
+          <br/>
         </div>
-        <img
-          class="career-img"
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d71db18bcf9.png"
-          alt="career"
-        />
-      </div>
-    </div>
-    <div class="about-content" style="grid-template-columns: 3fr 2fr">
-      <!-- 性格 -->
-      <div class="about-item character" style="--color: #4298b4">
-        <span class="tip">性格</span>
-        <span class="title2">物流师</span>
-        <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
-        <span class="more">
-          在
-          <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
-          了解更多关于
-          <a href="https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC" target="_blank">
-            物流师
-          </a>
-        </span>
-        <img
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d6bc7ae72ae.png"
-          alt="male"
-          class="male"
-        />
-      </div>
-      <!-- 座右铭 -->
-      <div class="about-item">
-        <span class="tip">座右铭</span>
-        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
-        <span class="title2">一丝不苟。</span>
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 1fr 1fr">
@@ -322,9 +318,9 @@ onMounted(() => {
         justify-content: center;
         padding: 2rem;
         color: #fff;
-        background-image: linear-gradient(120deg, #5b27ff 0%, #00d4ff 100%);
+        background-image: linear-gradient(120deg, #57728B 0%, #57728B 100%);
         background-size: 200% 200%;
-        animation: gradientFlow 6s ease infinite;
+        //animation: gradientFlow 6s ease infinite;
         .title2 {
           line-height: 2;
         }
