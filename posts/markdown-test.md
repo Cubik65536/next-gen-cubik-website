@@ -123,12 +123,20 @@ Sample text here...
 
 Syntax highlighting
 
-``` js
+``` JavaScript
 var foo = function (bar) {
   return bar++;
 };
 
 console.log(foo(5));
+```
+
+``` Java{3} title="index.ts"
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
 ```
 
 ## Tables
