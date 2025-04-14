@@ -8,6 +8,7 @@ export const themeConfig = {
     welcomeMessage: "你好，欢迎来到 Cubik 的小站",
     // 站点描述
     description: "Recommended by Dr. Creative",
+    descriptionHTML: "Recommended by<br/>Dr. Creative",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址

@@ -1,7 +1,7 @@
 <!-- 侧边栏 - 欢迎 -->
 <template>
   <div class="hello s-card" @mouseleave="resetHello">
-    <span class="tip" @click="changeHello">{{ helloText }}</span>
+    <span class="tip" @click="changeHello" style="color: #ffffff;">{{ helloText }}</span>
     <div class="content">
       <div class="site-logo">
         <Clock />
@@ -9,9 +9,9 @@
       <span class="site-desc" v-html="theme.aside.hello.text" />
     </div>
     <div class="info">
-      <div class="name">
+      <div class="name" style="color: #ffffff;">
         <span class="author">{{ theme.siteMeta.author.name }}</span>
-        <span class="desc">{{ theme.siteMeta.description }}</span>
+        <span class="desc" v-html="theme.siteMeta.descriptionHTML"></span>
       </div>
       <div class="link">
         <a href="https://pgp.cubik65536.top/" target="_blank" class="social-link">
