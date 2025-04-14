@@ -403,8 +403,4 @@ export const themeConfig = {
     js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.umd.min.js",
     css: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.min.css",
   },
-  // 站点统计
-  tongji: {
-    "51la": "",
-  },
 };

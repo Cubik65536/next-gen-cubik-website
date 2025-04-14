@@ -130,38 +130,6 @@
         </div>
       </div>
     </div>
-    <div class="about-content" style="grid-template-columns: 2fr 3fr">
-      <!-- 数据 -->
-      <div
-        class="about-item static image"
-        style="
-          --color: #0f1114;
-          background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661c8fbf226d3.webp);
-        "
-      >
-        <div class="image-content">
-          <span class="tip">数据</span>
-          <span class="title2">访问统计</span>
-          <div class="static-data">
-            <div v-for="(item, key, index) in statisticsData" :key="index" class="static-item">
-              <span class="static-name">{{ key }}</span>
-              <span class="static-num">{{ item }}</span>
-            </div>
-          </div>
-          <div class="image-desc opacity">
-            <span class="left">
-              统计信息来自 <a href="https://v6.51.la/" target="_blank">51la</a>
-            </span>
-          </div>
-        </div>
-      </div>
-      <!-- 座右铭 -->
-      <div class="about-item">
-        <span class="tip">座右铭</span>
-        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
-        <span class="title2">一丝不苟。</span>
-      </div>
-    </div>
     <!-- 心路历程 -->
     <div class="about-content" style="display: flex">
       <div class="about-item">
@@ -193,8 +161,6 @@
 </template>
 
 <script setup>
-import { getStatistics } from "@/api";
-
 const { theme } = useData();
 
 // 技能数据
@@ -266,19 +232,6 @@ const skillsData = [
     link: "https://chat.openai.com/",
   },
 ];
-
-// 站点统计数据
-const statisticsData = ref(null);
-
-// 获取站点统计数据
-const getStatisticsData = async () => {
-  const result = await getStatistics(theme.value.tongji["51la"]);
-  statisticsData.value = result;
-};
-
-onMounted(() => {
-  getStatisticsData();
-});
 </script>
 
 <style lang="scss" scoped>
