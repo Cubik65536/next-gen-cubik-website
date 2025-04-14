@@ -20,6 +20,11 @@ const markdownConfig = (md, themeConfig) => {
   md.use(deflist_plugin);
   md.use(ins_plugin);
   md.use(footnote_plugin);
+  md.renderer.rules.footnote_block_open = (tokens, idx, options) =>
+    (options.xhtmlOut ? '<hr class="footnotes-sep" />\n' : '<hr class="footnotes-sep">\n') +
+    '<strong style="color: var(--main-color)">脚注</strong>\n' +
+    '<section class="footnotes">\n' +
+    '<ol class="footnotes-list">\n';
   md.use(mark_plugin);
   md.use(sub_plugin);
   md.use(sup_plugin);
