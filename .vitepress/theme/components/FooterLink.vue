@@ -14,7 +14,7 @@
         target="_blank"
         class="social-link"
       >
-        <i :class="`iconfont icon-${item.icon}`"></i>
+        <i :class="`${item.icon}`"></i>
       </a>
       <div class="logo" title="返回顶部" @click="smoothScrolling">
         <img :src="siteMeta.author.cover" alt="author" class="author" />
@@ -26,7 +26,7 @@
         target="_blank"
         class="social-link"
       >
-        <i :class="`iconfont icon-${item.icon}`"></i>
+        <i :class="`${item.icon}`"></i>
       </a>
     </div>
     <div class="footer-sitemap">
@@ -71,6 +71,10 @@ const socialLinkData = computed(() => {
 </script>
 
 <style lang="scss" scoped>
+.fa-solid, .fa-brands {
+  color: var(--footer-font-awesome-color) !important;
+}
+
 .footer-link {
   width: 100%;
   max-width: 1200px;
@@ -140,10 +144,6 @@ const socialLinkData = computed(() => {
       transition:
         transform 0.3s,
         background-color 0.3s;
-      .iconfont {
-        font-size: 20px;
-        color: var(--main-card-background);
-      }
       &:hover {
         transform: scale(1.15);
         background-color: var(--main-color);

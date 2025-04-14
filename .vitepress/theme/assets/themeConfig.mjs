@@ -60,21 +60,13 @@ export const themeConfig = {
           href: "https://mirrors.sustech.edu.cn",
         },
       ],
-      // HarmonyOS font
+      // FontAwesome
       [
         "link",
         {
           crossorigin: "anonymous",
           rel: "stylesheet",
-          href: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css",
-        },
-      ],
-      [
-        "link",
-        {
-          crossorigin: "anonymous",
-          rel: "stylesheet",
-          href: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css",
+          href: "https://fapro6.cubik65536.top/css/all.css",
         },
       ],
       // iconfont
@@ -238,28 +230,36 @@ export const themeConfig = {
     // 社交链接（请确保为偶数个）
     social: [
       {
-        icon: "email",
-        link: "mailto:one@imsyy.top",
+        icon: "fa-duotone fa-solid fa-fingerprint",
+        link: "https://pgp.cubik65536.top/",
       },
       {
-        icon: "github",
-        link: "https://www.github.com/imsyy/",
+        icon: "fa-duotone fa-solid fa-envelopes",
+        link: "mailto:me@cubik65536.top",
       },
       {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
+        icon: "fa-brands fa-github",
+        link: "https://github.com/Cubik65536/",
       },
       {
-        icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        icon: "fa-brands fa-bluesky",
+        link: "https://bsky.app/profile/cubik65536.top/",
       },
       {
-        icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        icon: "fa-brands fa-x-twitter",
+        link: "https://x.com/Cubik65536/",
       },
       {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        icon: "fa-brands fa-bilibili",
+        link: "https://space.bilibili.com/439205819/",
+      },
+      {
+        icon: "fa-brands fa-telegram",
+        link: "https://t.me/cubiksteleblog/",
+      },
+      {
+        icon: "fa-duotone fa-solid fa-bullseye-pointer",
+        link: "https://foreverblog.cn/go.html/",
       },
     ],
     // sitemap

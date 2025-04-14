@@ -23,3 +23,12 @@ body,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon::before {
+  /* Set the font for this icon style */
+  font-family: 'Font Awesome 6 Pro' !important;
+  /* Set the weight for this icon style */
+  font-weight: 900;
+  /* Make sure icons render pixel-perfect */
+  -webkit-font-smoothing: antialiased;
+}
