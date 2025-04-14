@@ -14,7 +14,8 @@ export const themeConfig = {
     // 站点地址
     site: "https://cubik65536.top",
     // 语言
-    lang: "zh-CN",
+    lang: "en-US",
+    // lang: "zh-CN",
     // 作者
     author: {
       name: "Cubik65536",

@@ -1,0 +1,5 @@
+articleGPT:
+  title: "Article Summary"
+  loading: "Loading..."
+  tip: "This content is generated based on the article and has been manually reviewed, only for article explanation and summary"
+  fake_gpt_intro: "I am a summary generation assistant developed by Wuming. As you can see, this is a fake GPT, all text comes from locally written content. I am only responsible for display here, and output in the form of GPT imitation. If you are short of money like me, you can do the same as me. Of course, you can also use TianliGPT developed by Tianli to implement real AI summary more simply." 
