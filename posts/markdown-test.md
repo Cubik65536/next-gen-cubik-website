@@ -275,7 +275,7 @@ This is an inline formula example. This is the most beautiful equation - the Eul
 Or, this is a block formula example brought you by the Tupper's self-referential formula:
 
 $$
-\frac{1}{2} < \left\lfloor \mod\left(\left\lfloor \frac{y}{17} \right\rfloor 2^{-17 \lfloor x \rfloor - \mod(\lfloor y \rfloor, 17)}, 2\right) \right\rfloor
+\frac{1}{2} < \left\lfloor \bmod\left( \left\lfloor \frac{y}{17} \right\rfloor \cdot 2^{-17 \lfloor x \rfloor - \bmod(\lfloor y \rfloor, 17)}, 2 \right) \right\rfloor
 $$
 
 Finally, **Maxwell's equations!**
