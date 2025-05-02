@@ -1,0 +1,239 @@
+api:
+  get-site-info:
+    no-title: "暂无标题"
+    no-description: "暂无站点描述"
+
+components:
+  aside:
+    widgets:
+      articleGPT:
+        summary: "文章摘要"
+        loading: "加载中..."
+        meta: "这段摘要是基于文章生成的，并经过作者审核，但可能仍然不完全准确。"
+        info: "如你所见，这只是一个假 GPT。它并不是真正的AI，它输出的所有内容都是预先编写的，并仿照 GPT 的形式输出。"
+      countdown:
+        remaining: "还剩 "
+        hours: " 小时"
+        days: " 天"
+        today: "今天"
+        this-week: "本周"
+        this-month: "本月"
+        this-year: "本年"
+      hello:
+        text:
+          one: "点这里干什么？"
+          two: "怎么还点？"
+          three: "那你点吧！"
+          hundred: "怎么还在点？？？"
+          random_1: "很高兴见到你"
+          random_2: "好久不见"
+          random_3: "欢迎回来"
+        greetings:
+          1: "凌晨好，昨晚睡得怎么样？"
+          2: "早上好，今天也要开心哦！"
+          3: "上午好，今天也要加油哦！"
+          4: "中午好，吃饱了精神好！"
+          5: "下午好，继续加油！"
+          6: "傍晚好，是时候放松一下了！"
+          7: "晚上好，是时候休息了！"
+          8: "夜深了，明天继续加油！"
+      site-data:
+        site-data: "站点数据"
+        post-count: "文章总数"
+        posts: "篇"
+        online-since: "建站天数"
+        days: "天"
+        visit-count: "总访问量"
+        times: " 次"
+        visitor-count: "总访客数"
+        visitors: " 人"
+      tags:
+        popular_tags: "热门标签"
+        show_all_tags: "显示全部标签"
+      toc:
+        toc: "目录"
+  list:
+    link-list:
+      unknown-grouping: "未知分组"
+      no-data: "暂无友链数据"
+    post-list:
+      pinned: "置顶"
+  plugins:
+    comments:
+      comments: "评论"
+      privacy-policy: "隐私政策"
+  tags:
+    link-card:
+      tip: "引用站外地址，请注意甄别链接安全性"
+      no-title: "暂无站点标题"
+      no-description: "暂无站点描述"
+  banner:
+    welcome-message: "你好，欢迎来到"
+  control:
+    appearance-mode-switch: "显示模式切换"
+    right-click-menu-switch: "右键菜单开关"
+    background-blur-switch: "背景模糊开关"
+    right-click-menu-enable: "右键菜单已启用"
+    right-click-menu-disable: "右键菜单已禁用"
+  copyright:
+    unnamed-post: "未命名文章"
+    author: "作者"
+    released: "发布于"
+    last-updated: "最近更新于"
+    license: "许可协议"
+    cc-link: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
+    by-nc-sa: "署名—非商业性使用—相同方式共享 4.0 协议国际版"
+  footer-link:
+    learn-more: "了解更多"
+    go-back-to-top: "返回顶部"
+  loading:
+    hint: "一直显示？点击任意区域即可关闭"
+  mobile-menu:
+    tags: " 标签"
+  nav:
+    random-post: "随机前往一篇文章"
+    search: "全站搜索"
+    open-control: "打开中控台"
+    go-back-to-top: "返回顶部"
+    open-mobile-menu: "打开菜单"
+  next-post:
+    read-next: "阅读下一篇"
+    read-previous: "阅读上一篇"
+    no-title-yet: "暂无标题"
+  pagination:
+    last-page: "上一页"
+    next-page: "下一页"
+    jump-to: "跳转至"
+  references: "参考资料"
+  related-post:
+    related-posts: "相关文章"
+    go-to-random-post: "随便逛逛"
+  reward-btn: "赞助我们"
+  right-menu:
+    back: "后退"
+    forward: "前进"
+    refresh: "刷新"
+    go-back-to-top: "返回顶部"
+    go-to-random-post: "随便逛逛"
+    all-categories: "全部分类"
+    all-tags: "全部标签"
+    open-link-in-new-tab: "在新标签页打开打开链接"
+    copy-link: "复制链接地址"
+    copy-image: "复制此图片"
+    download-image: "下载此图片"
+    paste-text: "粘贴文本"
+    open-in-new-tab: "在新标签页打开"
+    copy-selected-text: "复制选中文本"
+    comment-selected-content: "评论选中内容"
+    copyright-policy: "版权协议"
+    privacy-policy: "隐私政策"
+    copy-address-of-this-page: "复制本页地址"
+    dark-mode: "深色模式"
+    light-mode: "浅色模式"
+    automatic-mode: "跟随系统"
+    quickly-comment: "快速评论"
+    quickly-comment-tip: "您无需删除现有的输入框内容，直接在下方评论即可"
+  search:
+    title: "全局搜索"
+    tip: "想要搜点什么"
+    no-result: "搜索结果为空"
+    search-used-ms-before: "本次用时 "
+    search-used-ms-after: " 毫秒"
+  settings:
+    personalization-settings: "Personalization Settings"
+    font: "字体"
+    text-font: "文字字体"
+    code-font: "代码字体"
+    font-size: "字体大小"
+    customize-bg: "壁纸个性化"
+    site-bg: "站点背景"
+    bg-off: "关闭"
+    bg-pattern: "纹理"
+    home-page-style: "首页样式"
+    banner-height: "Banner 高度"
+    banner-half-height: "半屏"
+    banner-full-height: "全屏"
+    miscellaneous: "杂项调整"
+    extra-info-display-position: "额外信息显示位置"
+    extra-info-default-position: "默认位置"
+    extra-info-bottom-right-position: "右下角"
+store:
+  change-theme-type:
+    cant-switch: "无法在壁纸模式下切换明暗模式"
+    light-mode: "浅色模式"
+    dark-mode: "深色模式"
+    automatic-mode: "跟随系统"
+    currently: "当前主题为"
+
+utils:
+  helper:
+    format-timestamp:
+      yesterday: "昨天"
+      today: "今天"
+      days-ago: " 天前"
+    copy-text:
+      success: "复制成功，在转载时请标注本文地址"
+      failed: "复制出现错误，请重试"
+    copy-image:
+      success: "图片已复制到剪贴板"
+      failed: "复制图片错误，请重试"
+    download-image:
+      failed: "下载图片错误，请重试"
+  fancybox:
+    panup: "上移"
+    pandown: "下移"
+    panleft: "左移"
+    panright: "右移"
+    zoomin: "放大"
+    zoomout: "缩小"
+    togglezoom: "切换缩放级别"
+    iteratezoom: "切换缩放级别"
+    ITERATEZOOM: "切换缩放级别"
+    rotateccw: "逆时针旋转"
+    rotatecw: "顺时针旋转"
+    flipx: "水平翻转"
+    flipy: "垂直翻转"
+    fitx: "水平适应"
+    fity: "垂直适应"
+    reset: "重置"
+    togglefs: "切换全屏"
+    close: "关闭"
+    next: "上一个"
+    prev: "下一个"
+    modal: "使用 ESC 键关闭"
+    error: "发生了错误，请稍后再试"
+    image-error: "找不到图像"
+    element-not-found: "找不到 HTML 元素"
+    ajax-not-found: "载入 AJAX 时出错: 未找到"
+    ajax-forbidden: "载入 AJAX 时出错: 被阻止"
+    iframe-error: "加载页面出错"
+    toggle-zoom: "切换缩放级别"
+    toggle-thumbs: "切换缩略图"
+    toggle-slideshow: "切换幻灯片"
+    toggle-fullscreen: "切换全屏"
+    download: "下载"
+
+views:
+  archives:
+    posts: "文章"
+  cat_or_tag:
+    all_categories: "全部分类"
+    all_tags: "全部标签"
+    categories_count_before: "共有"
+    categories_count_after: "个分类"
+    tags_count_before: "共有"
+    tags_count_after: "个标签"
+  links:
+    shuffle: "随机访问"
+    apply: "申请友链"
+  not_found:
+    go_home: "回到首页"
+  post:
+    unnamed_post: "未命名文章"
+    info_expiry_reminder_before: "本文发表于"
+    info_expiry_reminder_after: "天前，其中的信息可能已经事过境迁"
+    report: "反馈与投诉"
+
+copy-text:
+  success: "复制成功，在转载时请标注本文地址"
+  failed: "复制出现错误，请重试"

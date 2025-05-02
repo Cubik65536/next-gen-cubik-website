@@ -1,0 +1,243 @@
+api:
+  get-site-info:
+    no-title: "No Title"
+    no-description: "No Description"
+
+components:
+  aside:
+    widgets:
+      articleGPT:
+        summary: "Article Summary"
+        loading: "Loading..."
+        meta: "This summary is generated based on the article and reviewed by the author. However, the summary might still not be fully accurate."
+        info: "As you see, this is a Fake GPT. It is not a real AI, all the content it outputs is pre-written and outputted like a chatbot."
+      countdown:
+        remaining: " Remaining"
+        hours: " Hours"
+        days: " Days"
+        today: "Today"
+        this-week: "This Week"
+        this-month: "This Month"
+        this-year: "This Year"
+      hello:
+        text:
+          one: "Why did you click me?"
+          two: "Again?"
+          three: "Go on!"
+          hundred: "Still here ?!?!"
+          random_1: "Good to see you here!"
+          random_2: "Long time no see!"
+          random_3: "Welcome back!"
+        greetings:
+          1: "Good morning! How's the sleep last night?"
+          2: "Good morning! Have a nice day!"
+          3: "Good morning! How's the work?"
+          4: "Good evening! Enjoy your dinner!"
+          5: "Good afternoon! Focus on your work!"
+          6: "Good afternoon! Time to relax!"
+          7: "Good night! How's your day?"
+          8: "It's late! Sleep tight!"
+      site-data:
+        site-data: "Site Data"
+        post-count: "Post Count"
+        posts: "Posts"
+        online-since: "Online Since"
+        days: "Days"
+        visit-count: "Visits"
+        times: " Times"
+        visitor-count: "Visitors"
+        visitors: " Visitors"
+      tags:
+        popular_tags: "Popular Tags"
+        show_all_tags: "Show All Tags"
+      toc:
+        toc: "Table of Contents"
+  list:
+    link-list:
+      unknown-grouping: "Unknown Grouping"
+      no-data: "No Friendly Links & Recommended Sites Data Yet"
+    post-list:
+      pinned: "Pinned"
+    type-bar:
+      home: "Home"
+      more: "More"
+  plugins:
+    comments:
+      comments: "Comments"
+      privacy-policy: "Privacy Policy"
+  tags:
+    link-card:
+      tip: "An external link will be opened. Please make sure it is safe."
+      no-title: "No Site Title"
+      no-description: "No Site Description"
+  banner:
+    welcome-message: "Hello! Welcome to "
+  control:
+    appearance-mode-switch: "Appearance Mode Switch"
+    right-click-menu-switch: "Right Click Menu Switch"
+    background-blur-switch: "Background Blur Switch"
+    right-click-menu-enable: "Right Click Menu Enabled"
+    right-click-menu-disable: "Right Click Menu Disabled"
+  copyright:
+    unnamed-post: "Unnamed Post"
+    author: "Author"
+    released: "Released"
+    last-updated: "Last Updated"
+    license: "License"
+    cc-link: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    by-nc-sa: "Attribution-NonCommercial-ShareAlike 4.0 International"
+  footer-link:
+    learn-more: "Learn More"
+    go-back-to-top: "Go Back to Top"
+  loading:
+    hint: "Still showing this? Click anywhere to close it."
+  mobile-menu:
+    tags: " Tags"
+  nav:
+    random-post: "Go to a Random Post"
+    search: "Search"
+    open-control: "Open Control Panel"
+    go-back-to-top: "Back to Top"
+    open-mobile-menu: "Open Mobile Menu"
+  next-post:
+    read-next: "Read Next Post"
+    read-previous: "Read Previous Post"
+    no-title-yet: "No Title Yet"
+  pagination:
+    last-page: "Last Page"
+    next-page: "Next Page"
+    jump-to: "Jump to"
+  references: "References"
+  related-post:
+    related-posts: "Related Posts"
+    go-to-random-post: "Go to a Random Post"
+  reward-btn: "Support Us"
+  right-menu:
+    back: "Back"
+    forward: "Forward"
+    refresh: "Refresh"
+    go-back-to-top: "Go Back to Top"
+    go-to-random-post: "Go to a Random Post"
+    all-categories: "All Categories"
+    all-tags: "All Tags"
+    open-link-in-new-tab: "Open Link in New Tab"
+    copy-link: "Copy Link"
+    copy-image: "Copy Image"
+    download-image: "Download Image"
+    paste-text: "Paste Text"
+    open-in-new-tab: "Open in New Tab"
+    copy-selected-text: "Copy Selected Text"
+    comment-selected-content: "Comment Selected Content"
+    copyright-policy: "Copyright Policy"
+    privacy-policy: "Privacy Policy"
+    copy-address-of-this-page: "Copy Address of This Page"
+    dark-mode: "Dark Mode"
+    light-mode: "Light Mode"
+    automatic-mode: "Automatic Mode"
+    quickly-comment: "Quickly Comment"
+    quickly-comment-tip: "You don't have to remove the content in the current input field. Just comment below."
+  search:
+    title: "Search"
+    tip: "What do you want to search for?"
+    no-result: "No Results Found"
+    search-used-ms-before: "Search used "
+    search-used-ms-after: " ms"
+  settings:
+    personalization-settings: "Personalization Settings"
+    font: "Font"
+    text-font: "Text Font"
+    code-font: "Code Font"
+    font-size: "Font Size"
+    customize-bg: "Customize Background"
+    site-bg: "Site Background"
+    bg-off: "Off"
+    bg-pattern: "Pattern"
+    home-page-style: "Home Page Style"
+    banner-height: "Banner Height"
+    banner-half-height: "Half Height"
+    banner-full-height: "Full Height"
+    miscellaneous: "Miscellaneous"
+    extra-info-display-position: "Extra Info Display Position"
+    extra-info-default-position: "Default"
+    extra-info-bottom-right-position: "Bottom Right"
+
+store:
+  change-theme-type:
+    cant-switch: "You can't switch Dark/Light mode when using image as background."
+    dark-mode: "Dark Mode"
+    light-mode: "Light Mode"
+    automatic-mode: "Automatic Mode"
+    currently: "Currently "
+
+utils:
+  helper:
+    format-timestamp:
+      yesterday: "Yesterday"
+      today: "Today"
+      days-ago: " days ago"
+    copy-text:
+        success: "Copied Successfully. Please quote the source when using it."
+        failed: "Copy Failed, Please Try Again"
+    copy-image:
+      success: "Image Copied to Clipboard"
+      failed: "Error Copying Image, Please Try Again"
+    download-image:
+      failed: "Error Downloading Image, Please Try Again"
+  fancybox:
+    panup: "Pan Up"
+    pandown: "Pan Down"
+    panleft: "Pan Left"
+    panright: "Pan Right"
+    zoomin: "Zoom In"
+    zoomout: "Zoom Out"
+    togglezoom: "Toggle Zoom"
+    toggle1to1: "Toggle 1:1"
+    iteratezoom: "Iterate Zoom Modes"
+    rotateccw: "Rotate Counterclockwise"
+    rotatecw: "Rotate Clockwise"
+    flipx: "Flip Horizontally"
+    flipy: "Flip Vertically"
+    fitx: "Fit to Width"
+    fity: "Fit to Height"
+    reset: "Reset"
+    togglefs: "Toggle Fullscreen"
+    close: "Close"
+    next: "Next"
+    previous: "Previous"
+    modal: "Use ESC key to close"
+    error: "Error, Please Try Again"
+    image-error: "Image Not Found"
+    element-not-found: "HTML Element Not Found"
+    ajax-not-found: "Error loading AJAX: Not Found"
+    ajax-forbidden: "Error loading AJAX: Forbidden"
+    iframe-error: "Error Loading Page"
+    toggle-zoom: "Toggle Zoom"
+    toggle-thumbs: "Toggle Thumbnails"
+    toggle-slideshow: "Toggle Slideshow"
+    toggle-fullscreen: "Toggle Fullscreen"
+    download: "Download"
+
+views:
+  archives:
+    posts: "Posts"
+  cat_or_tag:
+    all_categories: "All Categories"
+    all_tags: "All Tags"
+    categories_count_before: ""
+    categories_count_after: "categories in total"
+    tags_count_before: ""
+    tags_count_after: "tags in total"
+  links:
+    shuffle: "Go To a Random Link"
+    apply: "Apply to be Listed Here"
+  not_found:
+    go_home: "Go Home"
+  post:
+    unnamed_post: "Unnamed Post"
+    info_expiry_reminder_before: "This post was published"
+    info_expiry_reminder_after: "days ago. The information contained might be outdated."
+    report: "Report an Issue"
+
+copy-text:
+  success: "Copied Successfully. Please quote the source when using it."
+  failed: "Copy Failed, Please Try Again"
